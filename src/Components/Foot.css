@@ -1,0 +1,257 @@
+.footer-div {
+  /* background-color: #1f2c36; */
+  background-color: #301934;
+  height: 100vh;
+  font-family: inherit;
+  font-size: 60%;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  border: 0;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
+  -ms-word-wrap: break-word;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  word-wrap: break-word;
+}
+.bag {
+  /* background-color: #1f2c36; */
+  background-color: #301934;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.foot-main-div {
+  width: 100%;
+  height: 65vh;
+  background-color: #301934;
+
+  /* background-color: #1e2a34; */
+}
+.foot-flex-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /* text-align: center; */
+}
+
+.foot-col1 {
+  width: 20%;
+  text-align: center;
+}
+.foot-joy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 500;
+}
+.foot-joy-h1 {
+  margin-top: 20px;
+  color: #c0bfcb;
+}
+.foot-col2 {
+  width: 20%;
+  display: block;
+  justify-content: center;
+  /* text-align: center; */
+}
+.foot-recent {
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 60px;
+}
+
+.foot-recent-h1 {
+  font-size: 16px;
+  margin-top: 30px;
+
+  color: #c0bfcb;
+}
+.foot-recent-h2 {
+  color: #df3629;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.foot-recent-h2 span {
+  color: #6e6e6e;
+  font-size: 13px;
+}
+hr {
+  border-color: #6e6e6e;
+  background-color: #6e6e6e;
+  margin-top: 10px;
+}
+.foot-col3 {
+  width: 20%;
+}
+.foot-recent-h3 {
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: 80px;
+}
+.ul-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+}
+.ul-grid div {
+  color: #c0bfcb;
+  font-size: 14px;
+  margin: 10px;
+}
+.foot-col4 {
+  width: 20%;
+}
+.foot-news {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+.foot-border {
+  display: flex;
+  justify-content: center;
+}
+.foot-border input {
+  margin-top: 30px;
+  border: 1px solid transparent;
+  background-color: whitesmoke;
+  margin-left: -25px;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+}
+.foot-border ::placeholder {
+  text-align: left;
+  font-size: 12px;
+}
+.checkbox {
+  color: red;
+  background-color: red;
+}
+.foot-border2 {
+  border-right: 1px solid transparent;
+  background-color: #3d65b8;
+  margin-top: 30px;
+  width: 70px;
+  margin-left: -40px;
+  border-radius: 30px;
+
+  height: 40px;
+  border-bottom-left-radius: 1px;
+  border-top-left-radius: 1px;
+}
+.foot-arr {
+}
+.foot-border {
+}
+.location-arrow {
+  margin-left: 25px;
+  margin-top: 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+.foot-check {
+  margin: 4px;
+  margin-top: 20px;
+}
+.foot-check input :checked {
+  background-color: #1e2a34;
+}
+.foot-check span {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #c0bfcb;
+}
+.foot-span-span {
+  margin-left: 5px;
+  color: #df3629;
+}
+@media screen and (max-width: 980px) {
+  .foot-main-div {
+    width: 100%;
+    height: 160vh;
+  }
+  .foot-flex-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .foot-col1 {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .foot-col2 {
+    width: 100%;
+  }
+  .foot-col3 {
+    width: 100%;
+    text-align: center;
+  }
+  .ul-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+  }
+
+  .foot-col4 {
+    width: 100%;
+    margin-top: 30px;
+  }
+  hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .foot-arr {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .location-arrow {
+    margin-left: 0px;
+    margin-top: 12px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  .foot-border ::placeholder {
+    text-align: center;
+    font-size: 10.5px;
+  }
+  .foot-col4 {
+    width: 100%;
+    margin-top: 30px;
+  }
+  hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hr-cos {
+    display: none;
+  }
+  .foot-arr {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hr-cos {
+    display: none;
+    display: none;
+  }
+}

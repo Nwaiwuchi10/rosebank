@@ -1,0 +1,49 @@
+.div-man {
+  background-color: whitesmoke;
+}
+.div-mans h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.div-man .puyol {
+  font-size: 30px;
+  font-weight: 800;
+}
+.puyol-h3 {
+  /* color: #1f2c36; */
+  font-size: 27px;
+  font-weight: 700;
+}
+@media (max-width: 700px) {
+  .div-mans {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+  }
+  .div-jet1 {
+    width: 130px;
+
+    border-radius: 38px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: 10%;
+    left: 45%;
+  }
+}
+@media (max-width: 480px) {
+  .div-man .puyol {
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .puyol-h3 {
+    font-size: 20px;
+  }
+}

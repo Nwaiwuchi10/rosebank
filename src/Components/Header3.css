@@ -1,0 +1,84 @@
+.div-mans {
+  width: 100%;
+  height: 10vh;
+  background-color: whitesmoke;
+  display: flex;
+}
+.div-jet h2 {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  position: relative;
+  top: 20%;
+  left: 65%;
+}
+.div-jet1 {
+  border: 1px solid transparent;
+  width: 130px;
+
+  border-radius: 38px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  float: right;
+  position: relative;
+  top: 10%;
+  left: 70%;
+
+  background: #301934;
+}
+.div-jet1 h2 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 15%;
+  font-weight: 500;
+  font-size: 20px;
+}
+@media (max-width: 700px) {
+  .div-jet h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 30%;
+  }
+  .div-jet1 {
+    width: 130px;
+
+    border-radius: 38px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: 10%;
+    left: 45%;
+  }
+}
+@media (max-width: 480px) {
+  .div-jet h2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 15%;
+  }
+  .div-jet1 {
+    width: 100px;
+
+    border-radius: 38px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: 20%;
+    left: 30%;
+  }
+}

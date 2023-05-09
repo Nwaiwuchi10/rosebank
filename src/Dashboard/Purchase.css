@@ -1,0 +1,85 @@
+.div-main2 {
+  margin-top: -150px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.div-brancher {
+  width: 120%;
+  height: 15vh;
+  border: 1px solid whitesmoke;
+  box-shadow: 10px 5px 5px rgb(236, 240, 245);
+  background: white;
+  margin: 5px;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+.div-brancher2 {
+  width: 120%;
+  height: 15vh;
+  border: 1px solid whitesmoke;
+  background: white;
+  margin: 5px;
+  padding-left: 20px;
+  border-radius: 8px;
+  box-shadow: 10px 5px 5px rgb(236, 240, 245);
+}
+.div-brancher3 {
+  width: 120%;
+  height: 15vh;
+  border: 1px solid rgb(245, 247, 250);
+  background: white;
+  border: 1px solid whitesmoke;
+  margin: 5px;
+  border-radius: 8px;
+  padding-left: 20px;
+  box-shadow: 10px 5px 5px rgb(236, 240, 245);
+}
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  color: rgb(14, 9, 9);
+  line-height: 50px;
+}
+.f-icon {
+  width: 6%;
+  display: table;
+  height: 5vh;
+  color: teal;
+  border-radius: 120px;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: center;
+  line-height: 80px;
+}
+@media (max-width: 700px) {
+  .div-main2 {
+    margin-top: -350px;
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-items: center;
+    align-items: center;
+    text-align: start;
+  }
+}
+@media (max-width: 480px) {
+  .div-main2 {
+    /* margin-top: -350px; */
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  .div-brancher {
+    text-align: center;
+  }
+}

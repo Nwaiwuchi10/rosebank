@@ -1,0 +1,12 @@
+.div-main {
+}
+
+@media (max-width: 700px) {
+  .div-main {
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+}

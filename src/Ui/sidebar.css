@@ -1,0 +1,276 @@
+/* Sidebar styles */
+
+.MuiTypography-body1 {
+  font-size: 0.8rem;
+}
+/* 
+  .makeStyles-drawerPaper-55 {
+    height: 100vh !important;
+    border: 2px solid black !important;
+    overflow-y: hidden !important;
+  } */
+
+/* .user-container {
+    height: 100vh !important;
+    border: 2px solid black !important;
+    overflow-y: scroll !important;
+  } */
+.div-dol {
+  display: table;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin: 0 auto;
+
+  height: 3vh;
+  margin-top: 10px;
+}
+.div-dol div {
+  font-size: 17px;
+  color: #05386b;
+}
+.toly {
+  background-color: #05386b;
+}
+.border-busi {
+  border: 1px solid transparent;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: -6px;
+  background: whitesmoke;
+  color: #05386b;
+  width: 80%;
+  height: 4vh;
+}
+.div-clads {
+  background-color: whitesmoke;
+  color: #05386b;
+  height: 90vh;
+}
+.div-line {
+  display: table;
+  justify-content: start;
+  margin: 0 auto;
+  cursor: pointer;
+  line-height: 60px;
+}
+.fit-icon {
+  display: inline-flex;
+}
+.rose {
+  color: #05386b;
+}
+.t-icon {
+  position: relative;
+  left: 1080px;
+  color: #05386b;
+}
+.ty-icon {
+  position: relative;
+  left: 1060px;
+  color: #05386b;
+}
+.MuiAppBar-colorPrimary {
+  background: white;
+  color: #05386b;
+}
+
+.MuiSvgIcon-root {
+  color: #fff;
+}
+
+.side-accordion {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 17px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.side-link1 {
+  text-decoration: none;
+  color: white;
+  margin-left: 17px;
+  margin-top: 9px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-container {
+  width: 87%;
+  margin: auto;
+  display: flex;
+}
+
+.modal-container:hover {
+  background: "#379683";
+}
+
+.modal-icon {
+  margin-top: 15px;
+}
+
+.modal-div {
+  margin-left: 12px;
+}
+
+.side-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.side-icon {
+  color: #05386b;
+}
+
+.user-name {
+  width: 60%;
+  margin: auto;
+}
+
+.user-name p {
+  margin: auto;
+  font-size: 17px;
+  margin: 6px 0;
+}
+
+.side-image {
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+
+.side-image div {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+}
+
+.side-image img {
+  max-width: 60%;
+  width: 60%;
+  height: 90px;
+  max-height: 90px;
+  margin: auto;
+  border-radius: 49%;
+}
+
+.side-add {
+  position: relative;
+}
+
+.side-add input {
+  opacity: 0;
+  width: 25px;
+  position: absolute;
+  bottom: 45%;
+}
+
+.add-icon {
+  position: absolute;
+  bottom: 45%;
+}
+
+/* Notification styles */
+
+.notify-icon {
+  color: #05386b !important;
+  padding-right: 5px;
+}
+
+.notify-menu {
+  background-color: rgb(223, 217, 217);
+  width: 100%;
+  height: 100%;
+}
+
+.notify-text {
+  font-size: 13px;
+}
+
+.notify-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notify-head p {
+  margin-left: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #05386b;
+}
+
+.notify-head button {
+  margin-right: 10px;
+  border: none;
+  background: transparent;
+  color: #05386b;
+}
+
+.menu-dropdown {
+  max-height: 400px;
+  min-width: 150px;
+}
+
+/* Logo styles */
+
+.logolink {
+  height: 30px;
+  margin: auto 0;
+}
+
+.logo {
+  height: 30px;
+  margin: auto 0;
+}
+
+.hamburg {
+  color: #05386b;
+}
+
+@media (max-width: 600px) {
+  .MuiAppBar-colorPrimary {
+    color: #05386b !important;
+    background-color: #fff !important;
+  }
+  .logo {
+    margin: auto auto;
+  }
+  .t-icon {
+    position: relative;
+    left: 320px;
+    color: #05386b;
+  }
+  .ty-icon {
+    position: relative;
+    left: 300px;
+    color: #05386b;
+  }
+}
+@media (max-width: 480px) {
+  .MuiAppBar-colorPrimary {
+    color: #05386b !important;
+    background-color: #fff !important;
+  }
+  .logo {
+    margin: auto auto;
+  }
+  .t-icon {
+    position: relative;
+    left: 160px;
+    color: #05386b;
+  }
+  .ty-icon {
+    position: relative;
+    left: 150px;
+    color: #05386b;
+  }
+}
